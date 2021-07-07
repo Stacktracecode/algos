@@ -1,32 +1,33 @@
+HELP.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 
-*.class
-.mtj.tmp/
-*.war
-*.ear
-hs_err_pid*
-target/
-.springBeans
-.metadata
-.factorypath
+### STS ###
+.apt_generated
 .classpath
+.factorypath
 .project
-.settings/
-.vertx/
-bin/
-tmp/
-logs/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.loadpath
-.DS_Store
-test.txt
-.idea/
-.settings/
-.sonarlint/
-.recommenders/
-/.recommenders/
-**/*.iml
-.vscode
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+
+### VS Code ###
+.vscode/
+
+src/js/node/
+src/js/node_modules/
+src/js/build/
